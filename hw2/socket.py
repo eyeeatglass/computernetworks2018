@@ -1,7 +1,7 @@
 import socket
 s = socket.socket()
 address = '127.0.0.1'
-port = 80  # port number is a number, not string
+port = 80  
 try:
     s.connect((address, port)) 
     s.send()
